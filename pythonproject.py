@@ -63,7 +63,7 @@ score = 0
 print("WELCOME TO THE QUIZ")
 
 # Loop through each question
-for number, questions in enumerate(questions, start=1):
+for number, question in enumerate(questions, start=1):
     print(f"\nQuestion {number}: {question['question']}")
 
     # Display the choices
