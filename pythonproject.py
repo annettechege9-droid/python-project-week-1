@@ -30,7 +30,7 @@ questions = [
             "C": "34",
             "D": "24"
         },
-        "answer": "C"
+        "answer": "D"
     },
     {
         "question": "Which language is mainly used to style web pages?",
@@ -40,7 +40,7 @@ questions = [
             "C": "CSS",
             "D": "Java"
         },
-        "answer": "B"
+        "answer": "C"
     },
     {
         "question": "Which is the largest ocean?",
