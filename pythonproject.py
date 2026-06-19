@@ -26,31 +26,31 @@ questions = [
         "question": "What is 3 × 8?",
         "choices": {
             "A": "12",
-            "B": "26",
+            "B": "24",
             "C": "34",
-            "D": "24"
+            "D": "27"
         },
-        "answer": "D"
+        "answer": "B"
     },
     {
         "question": "Which language is mainly used to style web pages?",
         "choices": {
-            "A": "HTML",
+            "A": "CSS",
             "B": "Python",
-            "C": "CSS",
+            "C": "HTML",
             "D": "Java"
         },
-        "answer": "C"
+        "answer": "A"
     },
     {
         "question": "Which is the largest ocean?",
         "choices": {
             "A": "Indian",
-            "B": "Pacific",
+            "B": "Artic",
             "C": "Atlantic",
-            "D": "Artic"
+            "D": "Pacific"
         },
-        "answer": "B"
+        "answer": "D"
     }
 ]
 
@@ -63,7 +63,7 @@ score = 0
 print("WELCOME TO THE QUIZ")
 
 # Loop through each question
-for num, q in enumerate(questions, start=1):
+for number, questions in enumerate(questions, start=1):
     print(f"\nQuestion {number}: {question['question']}")
 
     # Display the choices
